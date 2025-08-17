@@ -1,2 +1,18 @@
-# Wireshark_IDS
-This project leverages Wireshark’s Tshark with Python for real-time traffic analysis. It:  Captures live packets from a chosen network interface.  Analyzes packet patterns to detect anomalies (e.g., SYN flood attacks).  Flags suspicious IP addresses and generates alerts.
+# Wireshark IDS Project
+
+## Description
+This project uses Tshark (Wireshark CLI) with Python to capture and analyze network traffic. It detects anomalies like SYN flood attacks.
+
+## Requirements
+- Wireshark (Tshark installed)
+- Python 3
+
+## Run Instructions
+1. Install Tshark:
+   ```bash
+   sudo apt install tshark
+   ```
+2. Run the script with root privileges:
+   ```bash
+   sudo python wireshark_ids.py
+   ```
